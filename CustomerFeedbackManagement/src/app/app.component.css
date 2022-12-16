@@ -1,0 +1,11 @@
+.topnav-right {
+    float: right;
+  }
+  .navbar-collapse{
+    flex-grow: 0 !important;
+    color: darkcyan;
+  }
+  .navbar-light .navbar-brand 
+  {
+        color: darkcyan !important;
+  }

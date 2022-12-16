@@ -1,0 +1,30 @@
+thead tr th {
+  height: 40px; 
+  line-height: 40px;
+}
+tbody { 
+  border-top: 1.5px solid black;
+}
+
+tbody td, thead th {
+  /* width : 200px; */
+  border: 1.5px solid black;
+}
+th td {
+  text-align:center;
+}
+.rating-list li {
+    float: right;
+    color: #ddd;
+    padding: 5x 5px;
+  
+  }
+.rating-list , .rating-list li.selected {
+  color: #ffd700;
+}
+.rating-list {
+  display: inline-block;
+  list-style: none;
+}
+
+     

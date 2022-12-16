@@ -1,0 +1,57 @@
+.rating-list li {
+    float: right;
+    color: #ddd;
+    padding: 2px 2px;
+  
+  }
+  
+  .rating-list li:hover,
+  .rating-list li:hover ~ li, .rating-list li.selected {
+    color: #ffd700;
+  }
+  
+  .rating-list {
+    display: inline-block;
+    list-style: none;
+  }
+  input[type=text], select {
+    width: 100%;
+    padding:2px 2px;
+    margin: 0 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  
+  div {
+    border-radius: 5px;
+    background-color:#fff;
+    padding: 5px;
+  }
+
+   input[type=submit],  input[type=button] {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    /* padding: 16px 32px; */
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  input[type=reset] {
+    background-color: darkorange;
+    border: none;
+    color: white;
+    /* padding: 16px 32px; */
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  form
+  {   
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+  }
